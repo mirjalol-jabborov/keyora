@@ -27,7 +27,7 @@
 ### Test Text Shortcuts
 1. Open any input field (Gmail compose, Google Docs, etc.)
 2. Type: `br`
-3. Press `Ctrl+Space` (or `Cmd+Space` on Mac)
+3. Press `Space`
 4. It should expand to `Best regards,`
 
 ## Managing Shortcuts
@@ -83,7 +83,7 @@ search-tool/
 **Shortcuts not working?**
 - Reload the extension: go to `chrome://extensions/`, click the reload icon
 - Check that DevTools Console has no errors
-- Make sure you're pressing `Cmd+Space` (Mac) or `Ctrl+Space` (Windows), not just Space
+- Make sure you're pressing the `Space` key after typing your keyword
 
 **Text shortcut not expanding in certain fields?**
 - Some rich text editors (Notion, medium, some Google products) use special input methods

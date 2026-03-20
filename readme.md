@@ -1,15 +1,15 @@
-# keyora - Chrome Extension
+# Keyora - Chrome Extension
 
 A lightweight Chrome extension that lets you create custom text snippets that expand with a keyboard shortcut.
 
-**Type a keyword + press `Ctrl+Space`** (or `Cmd+Space` on Mac) to expand your text snippets anywhere.
+**Type a keyword + press `Space`** to expand your text snippets anywhere.
 
 ## ✨ Features
 
 ### Text Field Snippets
 - `br` → `Best regards,`
 - `eml` → your email
-- Define anything: SQL, signatures, templates...
+- Define anything: email signatures, addresses, templates, code snippets...
 - Works in Gmail, Google Docs, forms, code editors, and any text input
 
 ### Easy Customization
@@ -29,14 +29,14 @@ A lightweight Chrome extension that lets you create custom text snippets that ex
    - Add your own via the UI
 
 3. **Use it**
-   - Type `br` in any input field + press `Cmd+Space` (Mac) or `Ctrl+Space` (Windows)
+   - Type `br` in any input field + press `Space`
    - It expands to `Best regards,`
 
 ## 📁 What's Included (MVP)
 
-This is the **v0.1 MVP** — text shortcuts only. See [MVP.md](./MVP.md) for full scope.
+This is the **v0.1 MVP** — text shortcuts only. See [MVP.md](./docs/MVP.md) for full scope.
 
-- ✅ 2 text shortcuts (SQL, email)
+- ✅ 2 text shortcuts (email closing, email address)
 - ✅ Settings UI to add/remove shortcuts
 - ✅ Local storage (no cloud sync)
 - ✅ No dependencies, lightweight
@@ -44,8 +44,8 @@ This is the **v0.1 MVP** — text shortcuts only. See [MVP.md](./MVP.md) for ful
 
 ## 🛠 Development
 
-- [Development Guide](./readme-development.md) - Testing, debugging, project structure
-- [MVP Scope](./MVP.md) - What's included and planned
+- [Development Guide](./docs/readme-development.md) - Testing, debugging, project structure
+- [MVP Scope](./docs/MVP.md) - What's included and planned
 
 ## 📝 Example Shortcuts
 
@@ -57,9 +57,7 @@ eml → your@email.com
 Add your own:
 - `sig` → Your full signature
 - `addr` → Your address
-- `fn` → Function template
-- `html` → HTML boilerplate
 
 ---
 
-**Status:** MVP (v0.1) - Text shortcuts working, ready for feedback and v0.2 enhancements.
+**Status:** MVP (v0.1) - Text shortcuts working, ready for use and feedback.

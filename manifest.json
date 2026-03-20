@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Keyora",
   "version": "0.1.0",
-  "description": "text field snippets",
+  "description": "Create custom text snippets that expand with keyboard shortcuts",
   "permissions": [
     "storage",
     "activeTab",

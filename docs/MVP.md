@@ -6,7 +6,7 @@ This is the minimum viable product launch for the keyora Chrome extension.
 ### Core Features (Implemented)
 - ✅ **Text field shortcuts** - Snippets that expand in input/textarea fields
   - 2 default examples: `br` (email closing), `eml` (email)
-  - Triggered with Ctrl+Space (Cmd+Space on Mac)
+  - Triggered with Space key
   - Works in Gmail, Notion, forms, etc.
 
 - ✅ **Settings popup UI** - Manage shortcuts without editing code
